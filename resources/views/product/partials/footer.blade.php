@@ -15,18 +15,18 @@
              >
       <!-- Left -->
       <div class="me-5">
-        <span style="font-family: calibri"><u>Get connected with us on social networks:</u></span>
+        <span style="font-family: garamond; font-size: 20px"><u>Get connected with us on social networks:</u></span>
       </div>
       <!-- Left -->
 <style>
     a{
         font-size: 14px;
-        font-family: calibri;
+        font-family: garamond;
         text-decoration: none;
     }
     p{
         font-size: 14px;
-        font-family: calibri;
+        font-family: garamond;
         text-decoration: none;
     }
 </style>
@@ -54,13 +54,15 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold">Adekolme Nigeria Limited</h6>
+            <h6 class="text-uppercase fw-bold" style="font-family: garamond; font-size: 20px">Adekolme Nigeria Limited</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
-            <p style="font-family: calibri; font-size: 13px;">
-            Bridging Global Solutions with Local Opportunities.
+            <p style="font-family: garamond; font-size: 16px; text-align: justify">
+            Adekolme Nigeria Ltd is a leading franchising and distribution company based in Nigeria. 
+            With a focus on construction, building materials, IT solutions, and innovative products, 
+            we connect Nigerian businesses with global brands
             </p>
           </div>
           <!-- Grid column -->
@@ -68,22 +70,22 @@
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Products</h6>
+            <h6 class="text-uppercase fw-bold" style="font-family: garamond; font-size: 20px">Useful Links</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p>
-              <a href="#!" class="text-dark">Home</a>
+              <a href="/" class="text-dark" style="font-family: garamond; font-size: 16px">Home</a>
             </p>
             <p>
-              <a href="#!" class="text-dark">About Us</a>
+              <a href="/about" class="text-dark" style="font-family: garamond; font-size: 16px">About Us</a>
             </p>
             <p>
-              <a href="#!" class="text-dark">Contact</a>
+              <a href="/contact" class="text-dark" style="font-family: garamond; font-size: 16px">Contact</a>
             </p>
             <p>
-              <a href="#!" class="text-dark">Partners</a>
+              <a href="partner" class="text-dark" style="font-family: garamond; font-size: 16px">Partners</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -91,22 +93,16 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <h6 class="text-uppercase fw-bold" style="font-family: garamond; font-size: 20px">Products & Services</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p>
-              <a href="#!" class="text-dark">Your Account</a>
+              <a href="/product" class="text-dark" style="font-family: garamond; font-size: 16px">Our Products</a>
             </p>
             <p>
-              <a href="#!" class="text-dark">Become an Affiliate</a>
-            </p>
-            <p>
-              <a href="#!" class="text-dark">Shipping Rates</a>
-            </p>
-            <p>
-              <a href="#!" class="text-dark">Help</a>
+              <a href="/service" class="text-dark" style="font-family: garamond; font-size: 16px">Services</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -114,15 +110,15 @@
           <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <h6 class="text-uppercase fw-bold" style="font-family: garamond; font-size: 20px">Contact</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
-            <p><i class="fas fa-home mr-3"></i>Address: </p>
-            <p><i class="fas fa-envelope mr-3"></i>Email: </p>
-            <p><i class="fas fa-phone mr-3"></i>Phone Number 1: </p>
-            <p><i class="fas fa-phone mr-3"></i>Phone Number 2: </p>
+            <p style="font-family: garamond; font-size: 16px"><i class="fas fa-home mr-3"></i>Address: </p>
+            <p style="font-family: garamond; font-size: 16px"><i class="fas fa-envelope mr-3"></i>Email: </p>
+            <p style="font-family: garamond; font-size: 16px"><i class="fas fa-phone mr-3"></i>Phone Number 1: </p>
+            <p style="font-family: garamond; font-size: 16px"><i class="fas fa-phone mr-3"></i>Phone Number 2: </p>
           </div>
           <!-- Grid column -->
         </div>
@@ -133,13 +129,9 @@
 
     <!-- Copyright -->
     <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © 2025 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/"
-         >Adekolme Nigeria Limited</a
-        >
+         class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      <a class="text-dark" href="#">
+        © 2025 Copyright. Adekolme Nigeria Limited</a>
     </div>
     <!-- Copyright -->
   </footer>

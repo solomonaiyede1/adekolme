@@ -46,7 +46,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="position: relative; z-index: 10; background-color: white;">
-      <ul class="navbar-nav float-end">
+      <ul class="navbar-nav me-5 mb-2 mb-lg-0 ms-auto">
       <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
@@ -57,13 +57,18 @@
            <a class="nav-link active" aria-current="page" href="/product">Products</a>
         </li>
         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="/service">Our Services</a>
+        </li>
+        <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="/partner">Our Partners</a>
         </li>
         <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="/contact">Contact</a>
         </li>
         <li class="nav-item">
-           <a class="btn" style="background-color:#df5900; color: white; width: 100px; height: 30px; margin-top: 7px; padding:3px; padding-top: 6px; border-radius: 15px" aria-current="page" href="/admin/login">Login</a>
+          <a class="nav-link active" aria-current="page" href="/admin/login" style="background-color: #df5900; color: white; border-radius: 15px; width: 60px; padding: 10px">
+            Login
+          </a>
         </li>
       </ul>
     </div>

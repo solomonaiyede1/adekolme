@@ -25,6 +25,11 @@ Route::get('/about', function () {
     return view('product/about');
 });
 
+Route::get('/service', function () {
+    return view('product/service');
+});
+
+
 Route::get('/contact', function () {
     return view('product/contact');
 });

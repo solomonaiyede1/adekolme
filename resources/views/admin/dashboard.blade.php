@@ -12,7 +12,7 @@
 									<div class="col-xl-6">
 										<div class="row">
 											<div class="col-xl-6 col-sm-6">
-												<div class="card bg-primary text-white">
+												<div class="card text-white" style="background-color: #df5900">
 													<div class="card-header border-0 flex-wrap">
 														<div class="revenue-date">
 															<span>Total Category</span>
@@ -22,11 +22,11 @@
 												</div>
 											</div>
 											<div class="col-xl-6 col-sm-6">
-												<div class="card bg-secondary text-white">
+												<div class="card text-white" style="background-color: #df5900">
 													<div class="card-header border-0">
 														<div class="revenue-date">
-															<span class="text-black">Total Products uploaded</span>
-															<h4 class="text-black">$920.035</h4>
+															<span class="text-white">Total Products uploaded</span>
+															<h4 class="text-white">$920.035</h4>
 														</div>
 														
 													</div>
@@ -69,7 +69,7 @@
 										</div>	
 									</div>
 									<div class="col-xl-3 col-sm-6">
-										<div class="card bg-primary" style="padding: 20px 20px; background-image: url(/images/banner/banner1.jpg);background-size: cover;background-blend-mode: luminosity;">
+										<div class="card" style="background-color: #df5900; padding: 20px 20px;background-size: cover;background-blend-mode: luminosity;">
 											<h4 style="color: white">Adekolme Nigeria Ltd</h4>
 											<marquee direction="left"><i style="color: white">Bringing World-Class Products to Nigeria</i></marquee>
 											<h6 style="color: white">Number of newsletter subscribers</h6>
@@ -85,7 +85,7 @@
 													<p>
 														Building Exhibitions
 													</p>
-													<a href="/admin/event" class="btn btn-secondary text-black">View Details here</a>
+													<a href="/admin/event" class="btn text-white" style="background-color: #df5900; color: white">View Details here</a>
 												</div>
 											</div>
 
@@ -162,7 +162,7 @@
 									<h4 class="heading mb-0">Top 10 Product Listings</h4>
 								</div>
 									<table id="projects-tbl" class="table">
-										<thead class="bg-primary">
+										<thead style="background-color: #df5900">
 											<tr>
 												<th style="color: white">Product ID</th>
 												<th style="color: white">Category</th>

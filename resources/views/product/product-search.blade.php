@@ -25,7 +25,6 @@
                 @endforeach
                 @else
                 <div class="alert alert-warning" style="text-align: center">No Product Found</div>
-                <div class="wear"><center><a href="/" class="btn btn-primary" style="border-radius: 5px;">Home Page</a></center></div>
                 @endif
             </div>
             

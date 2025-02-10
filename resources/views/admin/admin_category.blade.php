@@ -35,7 +35,7 @@
 							<div class="card-body p-0">
 								<div class="table-responsive active-projects">
 								<div class="tbl-caption">
-									<h4 class="heading mb-0"><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Click to Create category here</a></h4>
+									<h4 class="heading mb-0"><a href="#" class="btn btn-sm" style="background-color: #df5900; color: white" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Click to Create category here</a></h4>
 								</div>
 								@if (Session::has('success'))
 									<div class="alert alert-success">
@@ -45,12 +45,12 @@
 									</div>
 								@endif
 									<table id="projects-tbl" class="table">
-										<thead>
+										<thead style="background-color: #df5900;">
 											<tr>
-												<th>Category ID</th>
-												<th>Category Name</th>
-												<th>Date created</th>
-												<th>Actions</th>
+												<th style="color: white">Category ID</th>
+												<th style="color: white">Category Name</th>
+												<th style="color: white">Date created</th>
+												<th style="color: white">Actions</th>
 											</tr>
 										</thead>
 										<tbody>

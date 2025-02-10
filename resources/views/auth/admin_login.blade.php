@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Adekolme Nigeria Ltd | Login Page</title>
+	<link rel="icon" href="/banner/icon.png">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -28,14 +29,14 @@
 			<div class="col-xs-6 col-sm-6 col-md-4 mx-auto" style="padding-top: 20vh">
 				<div class="card bg-white">
 					<div class="card-header bg-white">
-						<div class="card-tile text-primary">
-							<center style="font-weight: 900; font-size: 14px; font-family: calibri">
-								Adekolme Nigeria Limited
+							<center>
+							<a href="/">
+								<img src="/banner/logo_a.png"style="width: 200px; height: auto"  alt="">
+							</a>
 							</center>
-						</div>
 					</div>
 					<div class="card-body" style="box-shadow: 5px 5px 5px grey">
-						<center style="font-weight: 900; font-size: 20px; font-family: calibri">Admin Login</center><br>
+						<center style="font-weight: 900; font-size: 25px; font-family: garamond">Admin Login</center><br>
 						<form method="post" action="/admin/login">
 							@csrf
 							<div class="email">
@@ -48,7 +49,7 @@
 
 					<div class="card-footer">
 							<div class="submit">
-										<button class="btn btn-sm btn-primary mx-auto form-control"; style="border-radius: 0px">Login</button>
+										<button class="btn btn-sm mx-auto form-control"; style="border-radius: 0px; background-color: #df5900; color: white">Login</button>
 									</div>	
 							</div>
 					</div>

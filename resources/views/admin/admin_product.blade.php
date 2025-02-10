@@ -56,7 +56,7 @@
 							<div class="card-body p-0">
 								<div class="table-responsive active-projects">
 								<div class="tbl-caption">
-									<h4 class="heading mb-0"><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Click to Create product here</a></h4>
+									<h4 class="heading mb-0"><a href="#" class="btn btn-sm" style="background-color: #df5900; color: white" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Click to Create product here</a></h4>
 								</div>
 								@if (Session::has('success'))
 									<div class="alert alert-success">
@@ -66,15 +66,15 @@
 									</div>
 								@endif
 									<table id="projects-tbl" class="table">
-										<thead>
+										<thead style="background-color: #df5900;">
 											<tr>
-												<th>Product ID</th>
-												<th>Product Category</th>
-												<th>Product Name</th>
-												<th>Product Price</th>
-												<th>Image</th>
-												<th>Date uploaded</th>
-												<th>Actions</th>
+												<th style="color: white">Product ID</th>
+												<th style="color: white">Product Category</th>
+												<th style="color: white">Product Name</th>
+												<th style="color: white">Product Price</th>
+												<th style="color: white">Image</th>
+												<th style="color: white" >Date uploaded</th>
+												<th style="color: white">Actions</th>
 											</tr>
 										</thead>
 										<tbody>
